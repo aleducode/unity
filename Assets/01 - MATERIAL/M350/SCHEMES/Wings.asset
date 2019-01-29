@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc9588fc4f66c044868984f55bc6432, type: 3}
+  m_Name: Wings
+  m_EditorClassIdentifier: 
+  Layers:
+  - Enabled: 1
+    Mask: {fileID: 0}
+    MaskChannel: 0
+    InverseMask: 0
+    Mul: {r: 1, g: 1, b: 1, a: 1}
+    Map: {fileID: 0}
+    LayerOperation: 0
+    WriteMask: {x: 1, y: 1, z: 1, w: 1}
+  - Enabled: 1
+    Mask: {fileID: 2800000, guid: 1b426d2f3c08dba4184f0e0efb52932d, type: 3}
+    MaskChannel: 0
+    InverseMask: 0
+    Mul: {r: 0, g: 1, b: 0.046749115, a: 1}
+    Map: {fileID: 0}
+    LayerOperation: 0
+    WriteMask: {x: 1, y: 1, z: 1, w: 1}
+  - Enabled: 1
+    Mask: {fileID: 2800000, guid: 95502a24c8795704aa663dcce51f2e63, type: 3}
+    MaskChannel: 0
+    InverseMask: 0
+    Mul: {r: 0, g: 0.097765446, b: 1, a: 1}
+    Map: {fileID: 0}
+    LayerOperation: 0
+    WriteMask: {x: 1, y: 1, z: 1, w: 1}
+  - Enabled: 1
+    Mask: {fileID: 2800000, guid: d51ebf8a8cd85ad40834e0f4fecdfd52, type: 3}
+    MaskChannel: 0
+    InverseMask: 0
+    Mul: {r: 1, g: 0, b: 0, a: 1}
+    Map: {fileID: 0}
+    LayerOperation: 0
+    WriteMask: {x: 1, y: 1, z: 1, w: 1}
+  OutputTexture: {fileID: 2800000, guid: aeb823042a78b9f4295672cccacb1041, type: 3}
+  OutputPath: Wings
+  AutoSaveOnClose: 1
